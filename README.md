@@ -2,20 +2,21 @@
 
 This project involves three separate analyses using Amazon product data to explore different aspects of machine learning and deep learning techniques. The following are the details of each project:
 
-## Project 1: Sentiment Analysis
+## [Project 1: Sentiment Analysis](https://github.com/kanitvural/final_project/blob/main/p1_sentiment_analysis.ipynb)
 
 In this project, text cleaning and preprocessing steps were performed, including removing punctuations, stopwords, and lemmatization. Two models were created for sentiment analysis:
 
 - **Logistic Regression**
+  
 - **Deep Learning Model with LSTM and a Self-Attention Mechanism**
 
 The objective was to classify reviews as either negative or positive.
 
-## Project 2: Image Classification
+## [Project 2: Image Classification](https://github.com/kanitvural/final_project/blob/main/p2_image_classification.ipynb)
 
-For image classification, approximately `170000` product images were downloaded using the `asyncio` library by parsing the image links from the Amazon metadata. The **EfficientNetB0** model was fine-tuned with **transfer learning** to classify products into their respective categories.
+For image classification, approximately 170,000 product images were downloaded using the `asyncio` library by parsing the image links from the Amazon metadata. The **EfficientNetB0** model was fine-tuned with **transfer learning** to classify products into their respective categories.
 
-## Project 3: Recommendation System
+## [Project 3: Recommendation System](https://github.com/kanitvural/final_project/blob/main/p3_recommendation_system.ipynb)
 
 In this project, the **SentenceTransformer** was used for vectorization with the BERT-based `all-MiniLM-L6-v2` model. For similarity search, the following tools were employed:
 
@@ -39,9 +40,10 @@ A recommendation system was developed to take a product title as input and list 
 
 
 
+
 GitHub repository for this project:
 
-[https://github.com/kanitvural/evolution_of_sentiment_analysis_using_imdb_dataset](https://github.com/kanitvural/evolution_of_sentiment_analysis_using_imdb_dataset)
+[https://github.com/kanitvural/final_project](https://github.com/kanitvural/final_project)
 
 ---
 
@@ -64,14 +66,16 @@ GitHub repository for this project:
 
 ## Installation
 
-To run this project locally, follow these steps:
+Separate requirements have been prepared for each project.
+
+**Example usage Project1:**
 
    ```bash
-   git clone https://github.com/kanitvural/evolution_of_sentiment_analysis_using_imdb_dataset.git
-   cd evolution_of_sentiment_analysis_using_imdb_dataset
+   git clone https://github.com/kanitvural/final_project.git
+   cd final_project
    python3 -m venv venv
    - For Linux/macOS
    source venv/bin/activate
    - For Windows:
    .\venv\Scripts\activate
-   pip install -r requirements.txt
+   pip install -r requirements_p1.txt
