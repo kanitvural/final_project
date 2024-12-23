@@ -18,7 +18,7 @@ The objective was to classify reviews as either negative or positive.
 
 ## [Project 2: Image Classification](https://github.com/kanitvural/final_project/blob/main/p2_image_classification.ipynb)
 
-For image classification, approximately 170,000 product images were downloaded using the `asyncio` library by parsing the image links from the Amazon metadata. The **EfficientNetB0** model was fine-tuned with **transfer learning** to classify products into their respective categories.
+For image classification, approximately `170000` product images were downloaded using the `asyncio` library by parsing the image links from the Amazon metadata. The **EfficientNetB0** model was fine-tuned with **transfer learning** to classify products into their respective categories.
 
 ## [Project 3: Recommendation System](https://github.com/kanitvural/final_project/blob/main/p3_recommendation_system.ipynb)
 
