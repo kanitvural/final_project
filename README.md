@@ -1,3 +1,7 @@
+
+![Project Diagram](amazon.jpg)
+
+
 # Final Project: Amazon Data Analysis
 
 This project involves three separate analyses using Amazon product data to explore different aspects of machine learning and deep learning techniques. The following are the details of each project:
@@ -68,7 +72,7 @@ GitHub repository for this project:
 
 Separate requirements have been prepared for each project.
 
-**Example usage Project1:**
+**Example usage for Project 1:**
 
    ```bash
    git clone https://github.com/kanitvural/final_project.git
