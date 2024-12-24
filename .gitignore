@@ -149,7 +149,7 @@ venv.bak/
 Kodlasam_Proje_revize.docx
 *.docx
 /model
-/data
+
 
 
 # mypy
